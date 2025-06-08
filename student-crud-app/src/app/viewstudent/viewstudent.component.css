@@ -1,0 +1,75 @@
+/* Styles for View Student component - table and buttons */
+table {
+  width: 90%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 20px auto;
+}
+
+
+th, td {
+  padding: 10px 10px;
+  border: 2px solid black;
+  text-align: left;
+}
+
+th {
+  background-color: #1976d2;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.add-student-btn {
+  padding: 10px 20px;
+  background-color: #28a745; /* green */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: block;
+  margin-left: auto;  /* push right */
+  margin-right: 20px; /* add space from right edge */
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+.add-student-btn:hover {
+  background-color: #218838; /* darker green */
+}
+
+
+
+button {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Edit button style */
+button:first-child {
+  background-color: #4CAF50; /* green */
+  color: white;
+}
+
+/* Delete button style */
+button:last-child {
+  background-color: #f44336; /* red */
+  color: white;
+  margin-left: 10px;
+}
+

@@ -1,0 +1,27 @@
+
+
+<h2>Student List</h2>
+<button class="add-student-btn" (click)="goToAddStudent()">Add Student</button>
+
+<table border="1" cellpadding="10" cellspacing="0">
+
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Course</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let student of students">
+      <td>{{ student.Name }}</td>
+      <td>{{ student.Age }}</td>
+      <td>{{ student.Course }}</td>
+      <td>
+        <button (click)="editStudent(student.Id)">Edit</button>
+        <button (click)="deleteStudent(student.Id)" style="margin-left: 10px;">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

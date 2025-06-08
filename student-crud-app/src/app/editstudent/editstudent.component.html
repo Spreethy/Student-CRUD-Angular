@@ -1,0 +1,10 @@
+<h2>Edit Student</h2>
+
+<form *ngIf="student && student.Id" (ngSubmit)="updateStudent()">
+  <input [(ngModel)]="student.Name" name="name" placeholder="Name" required />
+  <input [(ngModel)]="student.Age" name="age" type="number" placeholder="Age" required />
+  <input [(ngModel)]="student.Course" name="course" placeholder="Course" required />
+  <button type="submit">Update</button>
+</form>
+
+<p *ngIf="!student?.Id">Loading student data...</p>
