@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "1a2b3c4d-0000-1111-2222-abcdef123456",
+    "Name": "Jane Smith",
+    "Age": 22,
+    "Course": "Physics"
+  },
+  {
+    "Id": "2b3c4d5e-1111-2222-3333-bcdefa234567",
+    "Name": "Saran Kumar",
+    "Age": 23,
+    "Course": "Mathematics"
+  },
+  {
+    "Id": "3c4d5e6f-2222-3333-4444-cdefab345678",
+    "Name": "Emily Johnson",
+    "Age": 21,
+    "Course": "Computer Science"
+  },
+  {
+    "Id": "4d5e6f7a-3333-4444-5555-defabc456789",
+    "Name": "Michael Brown",
+    "Age": 24,
+    "Course": "Chemistry"
+  },
+  {
+    "Id": "5e6f7a8b-4444-5555-6666-efabcd567890",
+    "Name": "Laura Wilson",
+    "Age": 22,
+    "Course": "Biology"
+  },
+  {
+    "Id": "6f7a8b9c-5555-6666-7777-fabcde678901",
+    "Name": "David Lee",
+    "Age": 25,
+    "Course": "History"
+  },
+  {
+    "Id": "11293bb1-ac79-437f-a781-fa4d937c9978",
+    "Name": "Raj",
+    "Age": 24,
+    "Course": "Computer Science"
+  },
+  {
+    "Id": "abe00a4e-fc5c-45c5-a488-294fbf476283",
+    "Name": "John ",
+    "Age": 16,
+    "Course": "Mathematics"
+  }
+]
